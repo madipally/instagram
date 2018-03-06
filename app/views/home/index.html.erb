@@ -8,9 +8,9 @@
               </div>
           </div>
           <div class="col-sm-10 photos">
-              <%# @r_media.each do |photo| %>
-                <%#= image_tag photo['images']['low_resolution']['url'] %>
-              <%# end %>
+              <% @r_media.each do |photo| %>
+                <%= image_tag photo['images']['low_resolution']['url'] %>
+              <% end %>
           </div>
       </div>
   </div>
