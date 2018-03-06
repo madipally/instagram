@@ -1,0 +1,17 @@
+<div class="container">
+  <div class="col-sm-12">
+      <div class="row">
+          <div class="col-sm-2 thumbnail">
+              <%= image_tag current_user.image %>
+              <div class="caption">
+                  Welcome, <%= current_user.full_name %>
+              </div>
+          </div>
+          <div class="col-sm-10 photos">
+              <%# @r_media.each do |photo| %>
+                <%#= image_tag photo['images']['low_resolution']['url'] %>
+              <%# end %>
+          </div>
+      </div>
+  </div>
+</div>
